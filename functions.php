@@ -194,3 +194,13 @@ function tutdev_styles(){
 }
 
 add_action('wp_enqueue_scripts', 'tutdev_styles');
+
+add_theme_support('category-thumbnails');
+
+if(! function_exists('tutdev_first_post')){
+  function tutdev_first_post($cat_id){
+    $args = array('category' => $cat_id, 'orderby' => 'post_date',
+    'order' => 'ASC', 'posts_per_page' => 1);
+    return get_posts($args)[0];
+  }
+}

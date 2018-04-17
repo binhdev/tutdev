@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <?php get_template_part( 'templates/sidebar-title-post', get_post_format() ); ?>
+        <?php get_template_part( 'sidebar', get_post_format() ); ?>
       </div>
       <div class="col-md-9 main-content">
         <?php tutdev_pagination(); ?>

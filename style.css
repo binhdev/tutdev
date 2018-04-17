@@ -173,25 +173,30 @@ a, header a {
   padding: 0 6px 0 6px;
 }
 
+.new-title {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #ff5079;
+}
+
 img {
   vertical-align: middle;
   max-width: 100%;
   border: 0;
 }
-
 /* video-list */
 .video-list {
   width: 100%;
   background: #fff;
   min-height: 265px;
   margin: 12px 0px 2px 0px;
-  padding-left: 5px;
+  padding: 5px;
   border: 1px solid #d6d6d6;
   border-radius: 0px 0px 4px 4px;
 }
 
 .video-list .vid-title {
-  min-height: 73px;
+  min-height: 50px;
   font-size: 22px;
   color: #000;
   text-align: center;
@@ -219,6 +224,9 @@ img {
   -webkit-border-radius: 30px;
 }
 
+.clear {
+  clear: both;
+}
 /**
 * pls-share
 */

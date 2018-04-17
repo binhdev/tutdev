@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-1">
-        <a href="index.htm" class="logo"> <img alt="TutDev" class="img-responsive" src="/scripts/img/logo-footer.png"> </a>
+        <a href="index.htm" class="logo"> <img alt="Tutdev" class="img-responsive" src="<?php echo get_template_directory_uri() ?>/images/logo-footer.png"> </a>
         </div>
           <div class="col-md-4 col-sm-12 col-xs-12">
              <nav id="sub-menu">

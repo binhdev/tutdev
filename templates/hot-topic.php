@@ -8,7 +8,7 @@
 ?>
 <div class="xs-col-12 sm-col-6 col-md-12 td-widget">
   <a href="" title="Search">
-    <img src="<?php echo get_template_directory_uri() ?>/images/dev-logo.jpg" alt="Search" style="padding-top:5px;">
+    <img src="<?php echo get_template_directory_uri() ?>/images/dev-logo.png" alt="Search" style="padding-top:5px;">
   </a>
   <?php foreach ($list_cats as $m_cat) { $first_post = tutdev_first_post($m_cat->term_id); ?>
   <div class="col-md-3">

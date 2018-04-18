@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 <div style="clear:both;"></div>
 <div class="wrapper" role="main">
+  <?php get_template_part( 'templates/banner', get_post_format() ); ?>
     <div class="container">
+    <?php get_template_part( 'templates/hot-topic', get_post_format() ); ?>
       <!-- End td-widget -->
       <div class="clear"></div>
       <div class="row library">

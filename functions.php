@@ -204,3 +204,18 @@ if(! function_exists('tutdev_first_post')){
     return get_posts($args)[0];
   }
 }
+
+function tutdev_page_nav_category($args){ ?>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <?php for($i=0; $i < $args['count_list_cats']; $i = $i + $args['per_page']){
+        $num = ($i/$args['per_page']) + 1;
+        $url = sprintf('%s/page/%s',$args['cat_url'], $num);
+      ?>
+      <li class="page-item">
+        <a class="page-link <?php if($args['page'] == $num) echo 'active'; ?>" href="<?php echo $url; ?>"><?php echo $num; ?></a>
+      </li>
+      <?php } ?>
+    </ul>
+  </nav>
+<?php } ?>

@@ -190,6 +190,7 @@ if ( ! function_exists( 'tutdev_entry_tag' ) ) {
 function tutdev_styles(){
   wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
   wp_register_style('main-style', get_template_directory_uri(). '/style.css', 'all');
+  wp_enqueue_script( 'my-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '20182104', true );
   wp_enqueue_style('main-style');
 }
 

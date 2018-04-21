@@ -642,6 +642,7 @@ h1 {
   #menu-mobile {
     display:block;
     visibility:visible;
+    min-height: 70%;
   }
   button.btn.btn-show-menu.open {
     transform: translate(-110%,0);

@@ -1,3 +1,4 @@
+var $ = jQuery.noConflict();
 $(document).ready(function(){
   $('#btn-menu').click(function(e){
     $('#menu-mobile').addClass('open');

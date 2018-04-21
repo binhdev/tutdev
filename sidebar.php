@@ -1,9 +1,6 @@
 <aside id="menu-desktop" class="sidebar">
   <ul class="nav nav-list primary left-menu">
     <li>
-      <img src="https://www.tutorialspoint.com/java/images/java-video-tutorials.jpg">
-    </li>
-    <li>
       <?php
         $current_post = get_post();
         $cats = get_the_category($current_post->ID);

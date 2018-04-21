@@ -21,7 +21,7 @@
 <?php if(is_single()) : ?>
 <aside id="menu-mobile" class="sidebar">
   <div id="close-menu">
-    <img src="images/ic_back.png">
+    <img src="<?php echo get_template_directory_uri() ?>/images/ic_back.png">
   </div>
   <ul class="nav nav-list primary left-menu">
     <li>

@@ -16,7 +16,7 @@
       );
       $list_cats = get_categories($args);
       foreach ($list_cats as $m_cat) { ?>
-      <div class="col-md-3 col-xs-6 col-sm-12 col-lg-3">
+      <div class="col-md-3 col-sm-4 col-xs-6">
         <div class="nd-box">
           <a class="nd-bound" href="<?php echo get_category_link($m_cat->term_id); ?>" title="<?php echo $m_cat->name; ?>">
             <?php if(has_category_thumbnail($m_cat->term_id)) {

@@ -11,7 +11,7 @@
   $list_cats = get_categories($args);
 ?>
 <?php foreach ($list_cats as $m_cat) { if($m_cat->parent == 0) continue; $first_post = tutdev_first_post($m_cat->term_id); ?>
-<div class="col-lg-3 col-md-3 col-xs-6 col-sm-12">
+<div class="col-md-3 col-sm-4 col-xs-6">
   <div class="video-list">
     <a href="<?php echo get_permalink($first_post->ID); ?>">
       <div class="mycouse">
